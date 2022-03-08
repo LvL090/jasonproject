@@ -1,0 +1,104 @@
+
+
+#background{
+    background-color: rgb(58, 56, 56);
+    height: 100vh;
+
+}
+
+#search{
+    display: flex;
+    justify-content:space-between;
+    background-color: rgb(255, 244, 244);
+    height: 5vh;
+}
+
+.start{
+    display: flex;
+    justify-content:center;
+    background-color: rgb(155, 103, 103);
+    height: 100%;
+    width: 50%;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(248, 248, 248);
+}
+.menu{
+    display: flex;
+    justify-content:space-between;
+    background-color: rgb(108, 103, 155);
+    height: 100%;
+    width: 50%;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(248, 248, 248);
+}
+.butTop {
+    display: flex;
+    justify-content:space-around;
+    width: 30%;
+    margin: 5%;
+    text-decoration: none;
+}
+
+#topbox{
+    background-color: aquamarine;
+    width: 100%;
+    height: 32%;
+}
+
+#midbox{
+    background-color: rgb(2, 104, 10);
+    width: 100%;
+    height: 32%;
+}
+
+#bottombox{
+    background-color: rgb(104, 43, 2);
+    width: 100%;
+    height: 32%;
+}
+
+.titletop{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(155, 118, 63);
+    height: 15%;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(248, 248, 248);
+}
+
+.films{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(34, 26, 15);
+    height:85%;
+    color: rgb(248, 248, 248); 
+    gap: 5px;
+
+
+}
+
+.poster{
+    width: 90%;
+    height: 50%;
+    border-radius: 10%;
+    margin: 1%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.titleposter{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(71, 71, 39);
+    display: flex;
+    justify-content: center;
+
+}
