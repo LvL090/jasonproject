@@ -1,4 +1,4 @@
-const requestURL = './json/peloculas.json';
+const requestURL = './json/peliculas.json';
 
 async function fetchMoviesJSON(){
     const response = await fetch(requestURL);
@@ -7,6 +7,6 @@ async function fetchMoviesJSON(){
 }
 
 fetchMoviesJSON().then(movies => {
-    console.log(movies;)
+    console.log(movies);
 
 })
