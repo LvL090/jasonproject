@@ -10,6 +10,7 @@
     display: flex;
     justify-content:space-between;
     height: 5vh;
+    background-color: rgb(117, 113, 113);
 }
 
 .start{
@@ -40,7 +41,7 @@
     display: flex;
     justify-content:space-around;
     width: 100%;
-    margin: 5%;
+    margin: 0%;
     text-decoration: none;
 }
 
