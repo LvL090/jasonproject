@@ -13,42 +13,37 @@
 <body id="background">
     <section id="search">
     <div class="start">
-        <p>INICIO</p>
+        <p>START</p>
     </div>
     <div class="menu">
-    <ul class="butTop">
-        <li><a href="./IMG/outline_reorder_black_24dp.png"></a></li>
-        <li><a href="./IMG/outline_search_black_24dp.png"></a></li>
-    </ul>
+        <nav class="navbar  navbar-light bg-light">
+            <div class="container-fluid">
+                <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
     </div>
     </section>
     <section id="topbox">
-        <div class="titletop">
-            <p>Cine en V.O.S.E</p>
-        </div>
-        <div class="films">
-            <div class="poster1">
-                <img class="poster" src="./IMG/PELIS VOSE/batman.jpg" alt="">
-                <p class="title">The Batman</p>
-                <p class="rating">9/10</p>
+            <div class="titletop">
+                <p>Films in V.O.S.E</p>
             </div>
-            <div class="poster1">
-                <img class="poster" src="./IMG/PELIS VOSE/driveMyCar.jpg" alt="">
-                <p class="title">drive my car</p>
-                <p class="rating">8/10</p>
-            </div>
-
+        <div id="films">
+    
         </div>
+        
     </section>
     <section id="midbox">
-        <div class="titletop">
-            <p>Cine en 4K</p>
-        </div>
+            <div class="titletop">
+                <p>Films in 4K</p>
+            </div>
         <div class="films4k">
             <div class="poster1">
-                <img class="poster" src="./IMG/PELIS4K/alien.jpg">
-                <p class="title">Alien</p>
-                <p class="rating">10/10</p>
+                    <img class="poster" src="./IMG/PELIS4K/alien.jpg">
+                    <p class="title">Alien</p>
+                    <p class="rating">10/10</p>
             </div>
             <div class="poster1">
                 <img class="poster" src="./IMG/PELIS4K/predator.jpg">
@@ -74,5 +69,7 @@
             </div>
         </div>
     </section>
+
+<script src="./JS/secondpage.js"></script>
 </body>
 </html>

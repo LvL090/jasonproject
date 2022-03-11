@@ -16,17 +16,18 @@
     display: flex;
     justify-content:center;
     height: 100%;
-    width: 50%;
+    width: 25%;
     font-family: 'Bebas Neue', cursive;
     font-family: 'Outfit', sans-serif;
     font-family: 'Ubuntu', sans-serif;
     color: rgb(248, 248, 248);
 }
 .menu{
+    margin-top: 4%;
     display: flex;
-    justify-content:space-between;
+    justify-content:center;
     height: 100%;
-    width: 50%;
+    width: 75%;
     font-family: 'Bebas Neue', cursive;
     font-family: 'Outfit', sans-serif;
     font-family: 'Ubuntu', sans-serif;
@@ -68,26 +69,27 @@
     color: rgb(248, 248, 248);
 }
 
-.films{
+#films{
     display: flex;
     justify-content: center;
     justify-content:flex-start;
+    flex-wrap: wrap;
     height:85%;
     color: rgb(248, 248, 248); 
     gap: 1px;
 }
 
 .poster1{
-height: 100%;
-border-radius: 10%;
-margin-left: 2%;
-margin-right: 2%;
-display: flex;
-justify-content: center;
-flex-direction: column;
-font-family: 'Bebas Neue', cursive;
-font-family: 'Outfit', sans-serif;
-font-family: 'Ubuntu', sans-serif;
+    height: 100%;
+    border-radius: 10%;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 
